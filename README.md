@@ -14,6 +14,10 @@ angi-file is a directive for angularjs to help you make a model for input file a
 ```sh
 npm install angi-file
 ```
+OR
+```sh
+bower install angi-file
+```
 ### DEMO
 
 [Click Here](https://l.sgoyal.net/angiFile "angi-file demo implementation") to see running demo.
@@ -29,6 +33,10 @@ npm install angi-file
 ```html
 <script src="node_modules/angi-file/dist/angi-file.min.js"></script>
 ```
+OR
+```html
+<script src="bower_component/angi-file/dist/angi-file.min.js"></script>
+```
 * Add dependency to you app module
 ```javascript
 angular.module ("net.sgoyal.sample",['net.sgoyal.angi-file'])
@@ -38,6 +46,22 @@ angular.module ("net.sgoyal.sample",['net.sgoyal.angi-file'])
 <input multiple formats="jpg,png" type="file" ng-model="form.file" required name="file" class="form-control">
 ```
 You will get your file object in your controller scope. Enjoy!!!
+
+* your controller
+```javascript
+(function () {
+	angular.module ("net.sgoyal.sample")
+	.controller ("AppCtrl", function ($scope) {
+		$scope.form = {};
+		//form submit handler
+		$scope.saveUser = function (userform) {
+		    console.log ($scope.form.file);
+			if (userform.$valid)
+				alert ("Form saved");// will only be called if user have selected valid formats that you have configured.
+		};
+	});
+})();
+```
 
 ### Attributes
 
