@@ -1,0 +1,31 @@
+{
+  "name": "angi-file",
+  "description": "angi-file is a directive for angularjs to help you make a model for input file and validate for supported file formats.",
+  "main": "index.js",
+  "authors": [
+    "Shubham Goyal"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "file",
+    "input",
+    "file",
+    "format",
+    "validation",
+    "angularjs",
+    "file",
+    "input",
+    "support",
+    "for",
+    "ng-model"
+  ],
+  "homepage": "https://github.com/sgoyalnet/angi-file",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
