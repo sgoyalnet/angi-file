@@ -29,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/sgoyalnet/angi-file/issues"
   },
-  "homepage": "https://github.com/sgoyalnet/angi-file#readme"
+  "homepage": "https://github.com/sgoyalnet/angi-file#readme",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2"
+  }
 }
