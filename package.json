@@ -1,0 +1,33 @@
+{
+  "name": "angi-file",
+  "version": "1.0.0",
+  "description": "angi-file is a directive for angularjs to help you make a model for input file and validate for supported file formats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoyalnet/angi-file.git"
+  },
+  "keywords": [
+    "angularjs",
+    "file",
+    "input",
+    "file",
+    "format",
+    "validation",
+    "angularjs",
+    "file",
+    "input",
+    "support",
+    "for",
+    "ng-model"
+  ],
+  "author": "Shubham Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoyalnet/angi-file/issues"
+  },
+  "homepage": "https://github.com/sgoyalnet/angi-file#readme"
+}
